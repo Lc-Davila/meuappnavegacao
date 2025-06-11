@@ -5,6 +5,7 @@ import LoginScreen from './src/components/LoginScreen';
 import HomeScreen from './src/components/HomeScreen';
 import DetailsScreen from './src/components/DetailsScreen';
 import ProfileScreen from './src/components/ProfileScreen';
+import TarefaScreen from './src/components/TarefaScreen';
 
 const Stack = createStackNavigator();
 
