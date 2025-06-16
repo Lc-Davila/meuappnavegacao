@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+.browserslistrc
+
+# Build output
+dist/
+build/
+*.log
+
+# Metro bundler
+.expo/
+.expo-shared/
+.expo-dev/
+
+# Expo
+*.turtle*
+
+# Android
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+android/.DS_Store
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/.DS_Store
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/
+
+# Babel and ESLint
+babel.config.js
+.eslintrc.js
+
+# Environment files
+.env
+.env.*

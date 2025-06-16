@@ -21,7 +21,16 @@ export default function HomeScreen({ navigation }) {
           onPress={() => navigation.navigate('Profile')}
         />
       </View>
+
+      <View style={styles.buttonContainer}>
+        <Button
+          title="Go to Tarefas"
+          onPress={() => navigation.navigate('Tarefa')}
+        />
+      </View>  
+
     </View>
+
   );
 }
 
